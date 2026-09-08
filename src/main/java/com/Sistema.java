@@ -10,15 +10,16 @@ package com;
  */
 public class Sistema {
     public static void main(String[] args) {
-        String n = "Carlos";
-        double a = 8;
-        double b = 7;
-        double c = (a + b) / 2;
         
-        System.out.println("Aluno: "+ n);
-        System.out.println("Media: " + c);
+        String NomeAluno = "Carlos";
+        double Nota1 = 8;
+        double Nota2 = 7;
+        double Media = (Nota1 + Nota2) / 2;
         
-        if (c >= 6) {
+        System.out.println("Aluno: "+ NomeAluno);
+        System.out.println("Media: " + Media);
+        
+        if (Media >= 6) {
             System.out.println("Aprovado!");
         } else {
             System.out.println("Reprovado!");
